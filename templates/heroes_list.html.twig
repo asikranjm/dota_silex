@@ -1,0 +1,7 @@
+{% extends "layout.html.twig" %}
+
+{% block content %}
+    {% for item in heroes %}
+        {{ item.name }}<br>
+    {% endfor %}
+{% endblock %}
